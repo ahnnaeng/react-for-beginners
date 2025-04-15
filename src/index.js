@@ -9,7 +9,7 @@ const basename =
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log("NODE_ENV - ", process.env.NODE_ENV);
 root.render(
-  <BrowserRouter basename="/react-for-beginners">
+  <BrowserRouter basename={basename}>
     <App />
   </BrowserRouter>
 );
